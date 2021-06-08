@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+*{
+    font-family: "Karla","sans-serif";
+}
+body{
+    background-color:#e5eff5;
+
+    
+}
+.container{
+
+    
+    
+    max-width: 850px;
+    margin-top:10%;
+    
+    
+
+}
+
+.row1{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    padding: 2rem 3rem;
+    background-color: white;
+   
+}
+.row1 h2{
+    font-weight: bolder;
+    font-size:1.5em;
+    color: #2ab2af;
+}
+.row1 h3{
+    font-weight: bolder;
+    font-size:1.2em;
+    color: #c0df34;
+}
+.row1 p{
+    color: #98a6bd;
+    line-height: 1.75;
+    font-size: 1.3em;
+}
+
+
+.col1{
+    padding: 2rem 3rem;
+    background-color: #2ab2af;
+    border-bottom-left-radius: 5px;
+}
+.col2{
+    
+    padding: 2rem 3rem;
+    background-color: #4abebd;
+    border-bottom-right-radius: 5px;
+}
+.row2 h2{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.pp{
+    display: block;
+    color: #e5eff5;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+.text-col2{
+    color: white;
+    font-size: large;
+}
+.btn{
+    color: white;
+    background-color: #c0df34;
+    font-weight: bolder;
+    margin-top: 1em;
+    width:auto
+}
+.text-col2{
+    color:#e5eff5;
+    line-height: 1.75;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: Shsl(228, 45%, 44%); }
+
+
+
+    @media (max-width:576px){
+        .container{
+            margin-top:10%;
+            max-width:80%;
+    
+        }
+        
+        .col1{
+            border-radius:0px;
+        }
+        .col2{
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
