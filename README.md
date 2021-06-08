@@ -7,7 +7,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 ### Links
 
 - Solution URL: https://github.com/MAHI21-WEB/Single-Price-Grid-FrontEnd-Mentor-.git
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://mahi21-web.github.io/Single-Price-Grid-FrontEnd-Mentor-/
 
 I also used Bootstrap v5.0.1 in recreating this design.
 
